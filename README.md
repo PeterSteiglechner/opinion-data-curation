@@ -12,7 +12,8 @@ The variables should include all of the following
 * attention_to_politics_general (*)
 * most_important_topic
 * second_most_important_topic
-* opinions on different topics, variables coded as f"econ_{actual_variable_name}" for categories – econ, climate, civil (gay,abortion...), migr, ...
+* opinions on different topics, variables coded as f"econ {question_summary} {actual_variable_name}" for categories – econ, clim, civi (civil-rights, gay, gender issues, abortion...), migr, secu (privacy, secturity)... (four letters and )
+
 
 If something is not tracked in a specific dataset, it should be coded as NaN
 
